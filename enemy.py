@@ -25,6 +25,7 @@ class Enemy(Entity):
         self.indices = range(2)
         self.graph = graph
 
+        self.current_node = None
         self.next_node = self.graph.nodes[25]
         self.adj_node = self.graph.nodes[24]
 
